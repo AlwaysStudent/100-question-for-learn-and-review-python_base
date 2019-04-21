@@ -9,7 +9,7 @@
 
 **[Python练习实例10](http://www.runoob.com/python/python-exercise-example10.html)**
 
-```code
+```python
 #!/usr/bin/python
 # -*- coding = utf-8 -*-
 import time
