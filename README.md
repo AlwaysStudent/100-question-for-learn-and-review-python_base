@@ -5,24 +5,24 @@
 
 ---
 
-###time
+##time
 
 **[Python练习实例10](http://www.runoob.com/python/python-exercise-example10.html)**
 
 ```code
-	#!/usr/bin/python
-	# -*- coding = utf-8 -*-
-	import time
+#!/usr/bin/python
+# -*- coding = utf-8 -*-
+import time
 	
 	
-	def main():
-	    print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
-	    time.sleep(1)
-	    print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
+def main():
+    print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
+    time.sleep(1)
+    print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
 	
 	
-	if __name__ == "__main__":
-	    main()
+if __name__ == "__main__":
+    main()
 ```
 
 只是用``time.time()``会生成时间戳，这样便于时间计算。
