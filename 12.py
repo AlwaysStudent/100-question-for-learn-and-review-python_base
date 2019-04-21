@@ -3,7 +3,7 @@
 import math
 
 
-def isPrime(number):
+def is_prime(number):
     temp = int(math.sqrt(number)) + 1
     for i in range(2, temp):
         if number % i == 0:
@@ -14,7 +14,7 @@ def isPrime(number):
 def main():
     num = 0
     for i in range(101, 201):
-        if isPrime(i) == 1:
+        if is_prime(i) == 1:
             num += 1
             print(i)
 
