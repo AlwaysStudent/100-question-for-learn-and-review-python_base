@@ -5,7 +5,7 @@
 
 ---
 
-## time
+## time模块
 
 **[Python练习实例10](http://www.runoob.com/python/python-exercise-example10.html)**
 
